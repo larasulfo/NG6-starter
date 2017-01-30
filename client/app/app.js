@@ -1,4 +1,5 @@
 import angular from 'angular';
+import restangular from 'restangular';
 import uiRouter from 'angular-ui-router';
 import Common from './common/common';
 import Components from './components/components';
@@ -7,6 +8,7 @@ import 'normalize.css';
 
 angular.module('app', [
     uiRouter,
+    restangular,
     Common,
     Components
   ])
